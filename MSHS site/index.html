@@ -1,0 +1,147 @@
+﻿<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Minglanila Science High School</title>
+		<link href="css/home.css" rel="stylesheet"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="js/js/jssor.slider-22.2.16.mini.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideDuration: 800,
+              $SlideEasing: $Jease$.$OutQuint,
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1920);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            /*responsive code end*/
+        });
+    </script>
+    </head>
+	<body>
+		<div id="container">
+			<div id="hold">
+				<nav id="top">
+					<a href="" id="slogo"><img src="img/slogo.png"/></a>
+					<ul>
+						<li  id="mt1"><a href="About.html">ABOUT US</a></li><li id="mt2"><a href="students.html">STUDENTS</a></li><li id="mt3"><a href="faculty.html">EVENTS</a><li id="mt4"><a href="Contact.html">CONTACTS</a></li>
+						<br><img src="img/triangle.png" id="tri"/>
+						</ul>
+				</nav>
+			</div>
+		<div id="jssor_1" style="font-family:yu gothic;position:relative;margin:0 auto; margin-top:-50px;top:0px;left:0px;width:2000px;height:800px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-oval" style="position:absolute;top:0px;left:0px;text-align:center;background-color:rgba(0,0,0,.5);">
+            <img style="margin-top:-19.0px;position:relative;top:50%;width:38px;height:38px;" src="js/img/oval.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:50px;left:0px;width:1800px;height:800px;overflow:hidden; margin-left:5%;">
+           <div>
+                <img src="img/20th.png" id="pic" /> <a href="faculty.html">
+                <div style="position:absolute;top:0px;right:0px;width:500px;height:100%;z-index:0;background-color:#ff4934;">
+                    <h1 style="position:absolute;top:10%;left:25px;width:500px;height:45px;z-index:0;font-size:50px;color:#ffffff;line-height:45px;">20th Foundation of MSHS</h1>
+                    <p style="position:absolute;top:25%;left:25px;width:470px;height:40px;z-index:0;font-size:22px;color:#ffffff;line-height:38px;">The Minglanilla Science High School was founded on 1996...</p></div>
+                </a>
+            </div>
+            <div>
+                <img id="pic" src="img/hara.jpg" />
+                <a href="faculty.html"><div style="position:absolute;top:0px;right:0px;width:500px;height:100%;z-index:0;background-color:#ff4934;">
+                    <h1 style="position:absolute;top:10%;left:25px;width:500px;height:40px;z-index:0;font-size:50px;color:#ffffff;line-height:40px;">Dinner For A Cause</h1>
+                    <p style="position:absolute;top:25%;left:25px;width:470px;height:40px;z-index:0;font-size:22px;color:#ffffff;line-height:38px;">The Minglanilla Science High School will be holding a Dinner for a Cause this Saturday, March 25, 2017 as a fund-raising program to support the school's expenses in the upcoming Sugat Kabanhawan Festival 2017. It will be an evening filled with laughter and excitement as parents, students, teachers, and alumni witness the talent and magnificence of MingScians...
+                </p></div></a>
+            </div>
+            <div>
+                <img id="pic" src="img/3.jpg" />
+                <a href="faculty.html">
+                <div style="position:absolute;top:0px;right:0px;width:500px;height:100%;z-index:0;background-color:#ff4934;">
+                    <h1 style="position:absolute;top:10%;left:25px;width:500px;height:40px;z-index:0;font-size:50px;color:#ffffff;line-height:40px;">DSPC 2016-2017</h1>
+                    <p style="position:absolute;top:25%;left:25px;width:470px;height:40px;z-index:0;font-size:22px;color:#ffffff;line-height:38px;">Minglanilla Science High School during Division Schools Press Conference 2016-2017</p></div>
+                </a>
+            </div>
+
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;" data-autocenter="2"></span>
+    </div>
+		    
+
+
+			<div id="info_b">
+				<div id="cap"><h1><big>Helping Students<br> to Achieve Higher Every Year.</big><br>Train students to excel not only academics, but also in sports and co-corricular academics. "Initium Sapientiae Timor Domini", the fear of the LORD is the beginning of wisdom</h1></div>
+				<div class="insiders"><div id="move"><img id="run" src="img/7.jpg"/><img id="run1" src="img/1.jpg"/><img id="run2" src="img/5.jpg"/></div><img src="img/school.png"/><h1>About</h1><a href="about.html"><p>Read more<br>▼</p></a></div>
+				<div class="insiders1"><div id="move"><img id="run" src="img/1.jpg"/><img id="run1" src="img/6.jpg"/><img id="run2" src="img/3.jpg"/></div><img src="img/even.png"/>
+                <h1>Events</h1>
+						<a href="about.html"><p>Read more<br>▼</p></a></div>
+			</div>
+
+			<span id="hyp">
+			<p></p>
+			<img src=""/>
+			</span>
+			<div class="wrapper">
+				<div id="st" class="in">
+					<a href="about.html"><div><img src="img/wel.png"/>
+						<div><h2>🔎 Read More</h2></div>
+					</div></a>
+					<h1><big>Welcome to<br> MINGLANILLA SCIENCE HIGH SCHOOL</big><br><br> The School Where Excellence Grows with Character </h1>
+					<p>The Minglanilla Science High School is a public science high school located in Cabrero St., Poblacion Ward I, Minglanilla, Cebu, fifteen kilometers away from the city, and approximately 200 meters away from the Minglanilla Municipal Hall and Immaculate Heart of Mary Parish Church. It lies adjacent to the long-existing Minglanilla Central School. It is a Department of Education recognized science high school under the Special Science Curriculum. The school is bounded with its vision and mission in developing quality and excellence service in education. The administration deemed to consider sending teachers to various quality workshops and seminars to continue serve best its clienteles. <br><br>
+As a result, the school continues to sustain 100% promotion rate and zero drop-out rate. Aside from that, National Achievement Test Results shows satisfactory Result in English, Filipino and HEKASI while Science and Math shows a slight need of intervention activities through Project implementation for continues improvement. </p>
+				</div>
+				<div class="in" style="background:#e9ebee; margin: 0;">
+					<a href="about.html"><div><img src="img/we.png"/>
+						<div><h2>🔎 Read More</h2></div>
+					</div></a>
+					<h1><big>We live the passion which you aspire.</big><br><br> We Nurture Every Students’ Talents and Skills</h1>
+					<p><br>Minglanilla Science High School does not only produce students that are proficient in academics. We develop the students’ skills and talents along with the right values and attitudes for a proper learning experience.<br><br>
+	The school recognizes a student’s talent and aims to enhance the talent of every student. As a result, students become competent in both academic and co-curricular activities. We train the students to achieve excellence through nurturing their passion for education. Furthermore, the school encourages students to join various competition to develop their winning potential. Likewise, the school ranked PBB level 8 and recognized to receive Harvest Excellence Award. Nothing would make this happen without the unceasing support of stakeholders making the endeavor of school and the community productive.<br><br>
+	Let your child cultivate and improve his concealed abilities and aptitudes, in a school where talents and skills are actively developed. Subject your child for admission and help him achieve his true potential.
+</p>
+				</div>
+
+				
+
+
+			</div>
+
+			<footer>
+				<p>Copyright © 2017 Minglanilla Science High School - All Rights Reserved</p> 
+				<a href="#"><img src="img/Insta.png" id="insta"/></a>
+				<a href="https://www.facebook.com/OfficialMingSci/"><img src="img/Fb.png" id="fb"/> </a>
+				<a href="https://twitter.com/OfficialMSHS"><img src="img/Twitter.png" id="twit"/></a>
+			</footer>
+
+		</div>
+	</body>
+</html>

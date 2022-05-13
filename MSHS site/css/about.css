@@ -1,0 +1,303 @@
+body{
+	margin:0;
+	background: rgb(255,215,79);
+}
+
+@font-face{
+	font-family: yu gothic;
+	src: url(yugothil.ttf);
+}
+
+div#container{
+	background: white;
+	margin: 1% 5%;
+	width: 90%;
+	box-shadow: 0px 0px 1px 0px #585858;
+}
+
+div.wrapper{
+	width:100%;
+	background:white;
+	padding-top: 10px;
+}
+
+
+
+
+div img#wall{
+	margin-top:-50px;
+	width:100%;
+}
+
+nav{
+	background: white;
+}
+
+nav ul{
+	list-style-type: none;
+	float:right;
+	margin-right: 8%;
+	margin-top: 50px;
+	padding:0;
+}
+
+nav#top ul li{
+		font-family: yu gothic;
+		font-weight:bold;
+		display: inline;
+}
+
+nav#top ul li a{
+	text-decoration: none;
+	color: black;
+		padding: 5px 10px;
+		padding-bottom: 20px;
+		display: inline-block;
+		border-bottom: 2px solid black;
+		font-size: 75%;
+	transition: 400ms ease-out;
+}
+
+nav#top ul li a:hover{
+		color: red;
+}
+
+nav#top img#tri{
+	width: 20px;
+	float:left;
+	margin-top: -15px;
+	visibility:hidden;
+	transition: 400ms ease-out; 
+  -webkit-transition: 400ms ease-out;
+  -moz-transition: 400ms ease-out;
+  -ms-transition: 400ms ease-out;
+  -o-transition: 400ms ease-out;
+	margin-left: 7.5%;
+	visibility:visible;
+}
+
+div #hold{
+	height: 200px;
+	background:white;
+}
+
+
+li#mt1:hover ~ #tri {
+		margin-left: 9%;
+	visibility:visible;
+}
+li#mt2:hover ~ #tri {
+		margin-left: 34.5%;
+	visibility:visible;
+}
+li#mt3:hover ~ #tri {
+		margin-left: 59%;
+	visibility:visible;
+}
+li#mt4:hover ~ #tri {
+		margin-left: 82.5%;
+	visibility:visible;
+}
+nav#top ul li#mt1 a{
+	color: red;
+}
+
+a#slogo img{
+	width: 50%;
+	z-index:1;
+	position: relative;
+	margin-left: 10px;
+}
+
+div.wrapper div#foot{
+	width: 80%;
+	padding:0 10%;
+	min-height: 162px;
+	display: inline-flex;
+	background: #e9ebee;
+}
+
+div.wrapper div#foot div{
+	width: 24%;
+	margin:auto;
+	padding-bottom: 20px;
+	display: inline-block;
+	
+}
+
+div.wrapper div#foot div a{
+	text-decoration: none;
+	color: black;
+}
+
+div.wrapper div#foot div:not(:first-child){
+	
+	-webkit-box-shadow: -35px 0px 20px -35px #757575;
+	box-shadow: -35px 0px 20px -35px #757575;
+}
+
+div.wrapper div#foot div ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+div.wrapper div#foot div li,div.wrapper div#foot div h1{
+	padding-left: 20%;
+	width: 60%;
+	font-family: yu gothic;
+}
+
+div.wrapper div#foot div li{
+	line-height: 20px;
+	font-size: 14px;
+}
+
+div.wrapper div#foot div h1{
+	
+	line-height: 30px;
+	font-size:25px;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+
+footer{
+	overflow: hidden;
+background: rgb(39,38,44);
+}
+
+footer p{
+	margin:0;
+    	vertical-align: middle;
+   	padding: 10px;
+	margin-left: 10%;
+    	font-family: yu gothic;
+    	color: white;
+    	font-size: 12px;
+	display: inline-block;
+}
+
+footer img{
+	width: 30px;
+	float: right;
+	margin-right: 5px;
+	margin-top: .4%;
+	opacity: .5;
+	
+}
+
+footer img#insta{
+	margin-right: 10%;
+}
+
+footer img:hover{
+	opacity: 1;
+	transform: scale(1.1);
+	transition: ease-in 100ms;
+}
+
+div#view{
+	width: 70%;
+	text-align: center;
+	font-family: yu gothic;
+	font-size: 135%;
+	display: inline-block;
+}
+
+div#view h1{
+	margin:0;
+}
+
+div#menu{
+	width: 30%;
+float: right;
+}
+
+div#choice{
+	width:25%;
+	margin-top:50px;
+	margin-right:5%;
+	float:right;
+	background: #27262c;
+	box-shadow: -11px 11px 0px #585555;
+	color:white;
+	font-family: yu gothic;
+}
+
+div#choice h1{
+	font-weight: 100;
+	font-size: 23px;
+	padding-left: 10%;
+	margin-top: 20px;
+}
+div#choice ul{
+	list-style-type: none;
+	padding:0;
+}
+
+div#choice ul li{
+	font-weight: bold;
+	width:90%;
+	font-size: 18px;
+	padding:5px 0px;
+	padding-left:10%;
+	cursor:pointer;
+}
+
+div#choice ul li:hover{
+	background: #22a9e8;
+}
+
+div#choice ul li img{
+	float:right;
+	width:30px;
+	
+}
+
+div#info{
+	width:500%;
+	transition: ease-out .5s;
+}
+
+div#info div{
+	margin:0;
+	width:20%;
+	display:inline-block;
+	font-family:yu gothic;
+}
+
+div#info div h1{
+	margin:0;
+	font-weight: bolder;
+	font-size: 40px;
+	text-align:center;
+	font-variant: small-caps;
+}
+
+div.wrapper section{
+	width:55%;
+	margin-left:5%;
+	overflow: hidden;
+	margin-top:50px;
+	float:left;
+}
+
+div#info p{
+	width:49%;
+	float:right;
+}
+
+img.dep{
+	width:100%;
+	display: table;
+
+}
+
+div#info div#principal{
+	display:none;
+}
+
+div#staff table{
+	width:50%;
+	position: absolute;
+}
